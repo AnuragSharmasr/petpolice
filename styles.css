@@ -1,0 +1,116 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    background-color:  #CEB5A7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #ebefbf;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.nav-links {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul li {
+  margin: 0 10px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #42145e;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s;
+}
+
+.nav-links ul li a:hover {
+  color: #4aa4bb;
+}
+
+
+
+
+.get-started a {
+    background-color: #4aa4bb; /* Button color */
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #ebefbf;
+    padding: 40px;
+    gap: 40px; /* spacing between text and image */
+  }
+  
+  .hero-text h1 {
+    margin-top: -10px;
+    font-size: 56px;     /* Slightly bigger headline */
+    font-weight: 600;    /* Bolder look */
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 20px;     /* Slightly larger paragraph */
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 550px; /* optional */
+  }
+  
+
+  .register {
+    font-size: 20px;  /* Increase text size */
+    padding: 15px 30px;  /* Increase padding for a bigger button */
+    font-weight: 600;    /* Bold the text */
+    border-radius: 8px;  /* Rounded corners */
+    cursor: pointer;
+    background-color: #5c9cc1; /* Example background color */
+    color: white;  /* Text color */
+    border: none;  /* Remove border */
+    transition: background-color 0.3s;  /* Smooth hover effect */
+  }
+  
+  .register:hover {
+    background-color: #0056b3;  /* Darker color on hover */
+  }
+  
